@@ -10,9 +10,28 @@
       font-family: Verdana, sans-serif;
       margin-top: 40px;
     }
+    .info {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      padding: 20px;
+      width: 300px;
+      margin: 40px auto;
+      border: 2px solid #008080;
+      border-radius: 10px;
+      text-align: left;
+    }
+
+    .info h1 {
+      color: #008080;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
 
   <h1 class="title">My CV</h1>
-
+   <div class="info">
+    <h1>My CV</h1>
+    <p><strong>Name:</strong> Rakesh B</p>
+    <p><strong>Age:</strong> 19 years old</p>
+  </div>
